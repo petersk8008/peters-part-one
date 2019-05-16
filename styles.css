@@ -1,0 +1,130 @@
+
+body {
+    background-color: #F0ECEE;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+span {
+    color: #FF4850;
+}
+
+.navbar ul {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: left;
+    padding-left: inherit;
+}
+
+.navbar ul button {
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    background-color: #FF4850;
+    color: #F0ECEE;
+    font-size: inherit;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.navbar ul button:hover {
+    background-color: #CCC;
+    color: #FF4850;
+}
+
+ul li {
+    list-style: none;
+    padding: 3px;
+    font-weight: 300;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #88898B;
+
+
+}
+
+.navbar a:hover {
+    color: #FF4850;
+}
+
+.site-text-container {
+    display: flex;
+    height: 250px;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.site-text-container h3 {
+    color: #88898B;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#find-out-how-button {
+    height: 50px;
+    width: 100%;
+    background-color: #FF4850;
+    color: #F0ECEE;
+    font-size: inherit;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+#find-out-how-button:hover {
+    background-color: #CCC;
+    color: #FF4850;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url("bulldog.jpg");
+        padding-left: 60px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .navbar ul button {
+        margin-top: 0px;
+        margin-right: 60px;
+        width: auto;
+    }
+
+    ul li {
+        padding: 10px;
+    }
+
+    .site-text-container {
+        display: flex;
+        padding-top: 100px;
+        height: 250px;
+        width: 550px;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    #find-out-how-button {
+        width: auto;
+    }
+}
